@@ -1,0 +1,17 @@
+{
+    "providerId": "platform.sh",
+    "providerName": "Platform.sh",
+    "serviceId": "aname",
+    "serviceName": "Platform.sh The Idea-to-Cloud Application Platform",
+    "version": 2,
+    "logoUrl": "https://platform.sh/logos/psh-light@2x.png",
+    "description": "Configure domain record for non-standard ANAME entry.",
+    "records": [
+        {
+            "type": "ANAME",
+            "host": "@",
+            "pointsTo": "%ip%",
+            "ttl": "3600"
+        }
+    ]
+}

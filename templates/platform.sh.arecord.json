@@ -1,0 +1,17 @@
+{
+    "providerId": "platform.sh",
+    "providerName": "Platform.sh",
+    "serviceId": "arecord",
+    "serviceName": "Platform.sh The Idea-to-Cloud Application Platform",
+    "version": 2,
+    "logoUrl": "https://platform.sh/logos/psh-light@2x.png",
+    "description": "Configure domain record for A entry.",
+    "records": [
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ip%",
+            "ttl": "3600"
+        }
+    ]
+}
